@@ -1,4 +1,9 @@
 console.log("Olá, visitante!!\n");
-console.log("Tópicos do assunto 'Estrutura Condicional':\n")
+console.log("Tópicos dos assuntos estudados em aula:\n")
 
-"oi"
+let topicos = ["Lógica de Programação;", "Git e GitHub;", "Linguagem JavaScript;", "Estruturas condicionais;", "Estruturas de Repetição."];
+
+for (let i = 0; i < topicos.length; i++) {
+    console.log(i+1, topicos[i]);
+}
+
